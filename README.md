@@ -6,26 +6,35 @@ To design a website to perform mathematical calculations in server side.
 ## DESIGN STEPS:
 
 ### Step 1:
+Create a Django project.
 
 
 
 ### Step 2:
+Create an App named mathapp.
 
 
 
 ### Step 3:
+In mathapp create a folder named template.In template folder create an anoter folder named mathapp.
 
 
 
 ### Step 4:
+Create a html document in the mathapp.
 
 
 
 ### Step 5:
+In the html document design the page as required for getting the input values for doing mathematical calculation.
 
 
 
 ### Step 6:
+Add the formula in views.py.
+
+### Step 7:
+Link the html document to urls.py
 
 Publish the website in the given URL.
 
