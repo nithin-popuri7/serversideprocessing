@@ -42,7 +42,7 @@ Publish the website in the given URL.
     <style>
         body{
             text-align: center;
-            background-color: aqua;
+            background-color: red;
         }
         .maindiv{
             margin-left:400px;
@@ -50,7 +50,7 @@ Publish the website in the given URL.
             border-style: dashed;
             width: 550px;
             height: 300px;
-            background-color: aquamarine;
+            background-color:ornage;
         }
         h1{
             text-decoration: underline;
@@ -75,7 +75,7 @@ Publish the website in the given URL.
         <br>
         <br>
         <footer>
-            Developed by:Koduru Sanath Kumar Reddy
+            Developed by:Popuri Nithin
         </footer>
     </div>
 </body>
@@ -99,6 +99,19 @@ def areacalculation(request):
         context["w"] = w
     return render(request,"mathapp/area.html",context)
 ```
+## urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from mathapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("areaofrectangle/",views.areacalculation,name="areaofrectangle"),
+    path("",views.areacalculation,name="areaofrectangleroot")
+]
+```
+
 
 
 ## OUTPUT:
