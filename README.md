@@ -36,7 +36,6 @@ Add the formula in views.py.
 ### Step 7:
 Link the html document to urls.py
 
-Publish the website in the given URL.
 
 ## PROGRAM : 
 ## HTML Code:
